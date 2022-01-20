@@ -4,9 +4,16 @@
 
 ## Subject
 
+* [Spec](#spec)
 * [User Config Dir Path](#user-config-dir-path)
 * [User Config File List](#user-config-file-list)
 * [Howto](#howto)
+* [Test Command](#test-command)
+
+
+## Spec
+
+* [Keybind](spec-keybind.md)
 
 
 ## User Config Dir Path
@@ -35,11 +42,13 @@ show
 │       └── tint2rc
 ├── autostart
 ├── environment
-├── sxhkdrc
-└── sowmrc
+└── sxhkdrc
 
-4 directories, 8 files
+4 directories, 7 files
 ```
+
+
+
 
 ## Howto
 
@@ -53,4 +62,14 @@ make install
 
 ``` sh
 make remove
+```
+
+## Test Command
+
+``` sh
+xmodmap -pk
+```
+
+``` sh
+xev -event keyboard
 ```
