@@ -1,5 +1,5 @@
 
-# Hyprwm / Keybind
+# Sowm / Keybind
 
 
 ## Subject

@@ -1,5 +1,5 @@
 
-# User Config
+# Sowm / User Config
 
 
 ## Subject
@@ -18,7 +18,7 @@
 
 ## User Config Dir Path
 
-* [~/.config/sowm](./)
+* [~/.config/sowm](./sowm)
 
 ## User Config File List
 
